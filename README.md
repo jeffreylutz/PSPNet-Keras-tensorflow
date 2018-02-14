@@ -14,7 +14,8 @@ Implemented Architecture of Pyramid Scene Parsing Network in Keras.
     pip install -r requirements.txt --upgrade
     ```
 
-1a. ALTERNATIVE - Install process via Anaconda  
+1a. ALTERNATIVE - Install process via Anaconda
+
     ```bash
     conda env create -f environment.yml -n pspnet
     source activate pspnet
@@ -22,7 +23,6 @@ Implemented Architecture of Pyramid Scene Parsing Network in Keras.
 
 2. Converted trained weights are needed to run the network.
 Weights(in ```.npy``` format) have to be downloaded and placed into directory ``` weights/npy ```
-
 
 Already converted weights can be downloaded here:
 
