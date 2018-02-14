@@ -4,14 +4,22 @@ Implemented Architecture of Pyramid Scene Parsing Network in Keras.
 
 ### Setup
 1. Install dependencies:
-    * Tensorflow (-gpu)
-    * Keras
+    * Python 3.5  (Python 2 or any other version of 3.x won't work)
+    * tensorflow OR tensorflow-gpu
+    * keras
     * numpy
     * scipy
     * pycaffe(PSPNet)(optional for converting the weights) 
     ```bash
     pip install -r requirements.txt --upgrade
     ```
+
+1a. ALTERNATIVE - Install process via Anaconda
+    ```bash
+    conda env create -f environment.yml -n pspnet
+    source activate pspnet
+    ```
+
 2. Converted trained weights are needed to run the network.
 Weights(in ```.npy``` format) have to be downloaded and placed into directory ``` weights/npy ```
 
