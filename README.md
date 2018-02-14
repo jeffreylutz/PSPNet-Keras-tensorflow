@@ -14,7 +14,7 @@ Implemented Architecture of Pyramid Scene Parsing Network in Keras.
     pip install -r requirements.txt --upgrade
     ```
 
-1a. ALTERNATIVE - Install process via Anaconda
+1a. ALTERNATIVE - Install process via Anaconda  
     ```bash
     conda env create -f environment.yml -n pspnet
     source activate pspnet
